@@ -10,6 +10,11 @@ public class Functions
         System.out.println("Enter the 2nd number: ");
         n2=sc.nextInt();
 
+        displayAnswer(n1,n2);
+        
+    }
+
+    static void displayAnswer(int n1, int n2){
         System.out.println();
         System.out.println("The answers are as follows:");
         System.out.println("LCM of "+n1+" and "+n2+" is: "+findLcm(n1,n2));
